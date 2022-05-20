@@ -62,7 +62,7 @@ class Consumer extends Command
                 foreach ($liseners as $lisener) {
                     if (!empty($message->payload)) {
                         $class = new $lisener(json_decode($message->payload));
-                        $class->dispatch();
+                        dispatch($class);
                     }
                 }
             }
