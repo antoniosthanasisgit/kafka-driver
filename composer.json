@@ -1,5 +1,5 @@
 {
-    "name": "antonios/kafka-driver",
+    "name": "antoniosthanasisgit/kafka-driver",
     "require": {
         "laravel/framework": "8.54"
     },
