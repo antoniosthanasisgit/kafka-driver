@@ -44,9 +44,9 @@ class Consumer extends Command
         /**
          *  returns and array of topics that containts
          *  as a key the name of the topic in your apache kafka
-         *  and as value the listener that will dispatch the job.
+         *  and as value the job.
          * 
-         *  return [topics => ['topic_name' => [App\Listeners\YourListener ]]
+         *  return [topics => ['topic_name' => [ App\Jobs\MyJob ]]
          */
 
         $topics = config('topics.topics');
