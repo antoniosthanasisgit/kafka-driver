@@ -3,11 +3,6 @@
     "require": {
         "laravel/framework": "^9.13"
     },
-    "autoload": {
-        "psr-4": {
-            "Antoniosthanasisgit\\KafkaDriver\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "antoniosthanasisgit",
