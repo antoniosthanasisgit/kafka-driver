@@ -2,7 +2,7 @@
     "name": "antoniosthanasisgit/kafka-driver",
     "autoload": {
         "psr-4": {
-            "AntoniosThanasisGit\\KafkaDriver\\": "src/"
+            "antoniosthanasisgit\\KafkaDriver\\": "src/"
         }
     },
     "authors": [
