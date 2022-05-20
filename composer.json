@@ -1,8 +1,5 @@
 {
     "name": "antoniosthanasisgit/kafka-driver",
-    "require": {
-        "laravel/framework": "^9.13"
-    },
     "authors": [
         {
             "name": "antoniosthanasisgit",
