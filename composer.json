@@ -1,9 +1,7 @@
 {
     "name": "antoniosthanasisgit/kafka-driver",
-    "autoload": {
-        "psr-4": {
-            "antoniosthanasisgit\\KafkaDriver\\": "src/"
-        }
+    "require": {
+        "laravel/framework": "^8.54"
     },
     "authors": [
         {
