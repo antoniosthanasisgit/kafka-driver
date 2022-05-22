@@ -57,11 +57,11 @@ class Consumer extends Command
             $message = $consumer->consume(120 * 1000);
 
             if (isset($message->topic_name)) {
-                $liseners = $topics[$message->topic_name];
+                $jobs = $topics[$message->topic_name];
 
-                foreach ($liseners as $lisener) {
+                foreach ($jobs as $job) {
                     if (!empty($message->payload)) {
-                        $class = new $lisener(json_decode($message->payload));
+                        $class = new $job(json_decode($message->payload));
                         dispatch($class);
                     }
                 }
